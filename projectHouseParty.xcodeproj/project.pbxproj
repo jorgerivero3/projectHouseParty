@@ -13,6 +13,9 @@
 		ED0DF4E5226A4FDF00253D3F /* projectHouseParty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED0DF4E3226A4FDF00253D3F /* projectHouseParty.xcdatamodeld */; };
 		ED0DF4E7226A4FE100253D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0DF4E6226A4FE100253D3F /* Assets.xcassets */; };
 		ED0DF4EA226A4FE100253D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0DF4E8226A4FE100253D3F /* LaunchScreen.storyboard */; };
+		ED0DF4F2226E33EE00253D3F /* PartiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0DF4F1226E33EE00253D3F /* PartiesViewController.swift */; };
+		ED0DF4F4226E342800253D3F /* PartySummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0DF4F3226E342800253D3F /* PartySummaryViewController.swift */; };
+		ED0DF4F6226E3CD700253D3F /* PartyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0DF4F5226E3CD700253D3F /* PartyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ED0DF4E6226A4FE100253D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0DF4E9226A4FE100253D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED0DF4EB226A4FE100253D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0DF4F1226E33EE00253D3F /* PartiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartiesViewController.swift; sourceTree = "<group>"; };
+		ED0DF4F3226E342800253D3F /* PartySummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartySummaryViewController.swift; sourceTree = "<group>"; };
+		ED0DF4F5226E3CD700253D3F /* PartyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				ED0DF4DC226A4FDF00253D3F /* AppDelegate.swift */,
 				ED0DF4DE226A4FDF00253D3F /* ViewController.swift */,
 				ED0DF4E0226A4FDF00253D3F /* Main.storyboard */,
+				ED0DF4F5226E3CD700253D3F /* PartyTableViewCell.swift */,
+				ED0DF4F3226E342800253D3F /* PartySummaryViewController.swift */,
+				ED0DF4F1226E33EE00253D3F /* PartiesViewController.swift */,
 				ED0DF4E6226A4FE100253D3F /* Assets.xcassets */,
 				ED0DF4E8226A4FE100253D3F /* LaunchScreen.storyboard */,
 				ED0DF4EB226A4FE100253D3F /* Info.plist */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0DF4E5226A4FDF00253D3F /* projectHouseParty.xcdatamodeld in Sources */,
+				ED0DF4F2226E33EE00253D3F /* PartiesViewController.swift in Sources */,
 				ED0DF4DF226A4FDF00253D3F /* ViewController.swift in Sources */,
+				ED0DF4F4226E342800253D3F /* PartySummaryViewController.swift in Sources */,
+				ED0DF4F6226E3CD700253D3F /* PartyTableViewCell.swift in Sources */,
 				ED0DF4DD226A4FDF00253D3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
