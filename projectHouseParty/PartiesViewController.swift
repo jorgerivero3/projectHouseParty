@@ -12,14 +12,13 @@ class PartiesViewController: UIViewController, UITableViewDataSource, UITableVie
     
     @IBOutlet weak var tableView: UITableView!
     
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
-    
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: PartyTableViewCell.cellReuseIdentifier) as! PartyTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "party", for: indexPath) as! PartyTableViewCell
         
         //Default values
         //TODO: Implement CoreData to fill out this table
@@ -35,6 +34,7 @@ class PartiesViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
+         print("wtf1")
 
         // Do any additional setup after loading the view.
     }
